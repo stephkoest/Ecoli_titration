@@ -13,7 +13,7 @@ This repository contains Python scripts developed as part of our study on **DnaA
 
 For a detailed description of the project and its biological significance, please refer to our preprint:
 > [**Regulatory role of chromosomal DnaA titration in bacterial DNA replication**](https://www.biorxiv.org/content/10.1101/2024.10.07.617004v1)  
-> _by [Your Name] et al._
+> _by Olivi et al._
 
 ### Key Findings
 - **DnaA motif detection**: We identified conserved DnaA box motifs across *E. coli* and *Salmonella enterica* genomes. Our analysis showed that DnaA boxes cluster around the replication origin (oriC), supporting the titration model for DnaA regulation.
@@ -133,7 +133,7 @@ This project is licensed under the MIT License.
 If you use this code in your research, please cite our preprint:
 
 > [**The Escherichia coli replication initiator DnaA is titrated on the chromosome**](https://www.biorxiv.org/content/10.1101/2024.10.07.617004v1)  
-> _by [Lorenzo Olivi] et al._
+> _by Olivi et al._
 
 
 
