@@ -43,53 +43,6 @@ Clone the repository and navigate to the directory:
 ```bash
 git clone https://github.com/stephkoest/Ecoli_titration.git
 cd Ecoli_titration
-```
-
-# DnaA Motif Detection and Motif Shuffling
-
-![License](https://img.shields.io/github/license/stephkoest/Ecoli_titration)
-![Version](https://img.shields.io/badge/version-1.0-blue)
-
-## Overview
-
-This repository contains Python scripts developed as part of our study on **DnaA titration and its regulatory role in *Escherichia coli* replication initiation**. The scripts allow for:
-1. **Detection of DnaA box motifs** on circular bacterial genomes.
-2. **Shuffling of DnaA box motifs** to generate control datasets for statistical analysis.
-
-### Preprint
-
-For a detailed description of the project and its biological significance, please refer to our preprint:
-> [**The Escherichia coli replication initiator DnaA is titrated on the chromosome**](https://www.biorxiv.org/content/10.1101/2024.10.07.617004v1)  
-> _by [Lorenzo Olivi] et al._
-
-### Key Findings
-- **DnaA motif detection**: We identified conserved DnaA box motifs across *E. coli* and *Salmonella enterica* genomes. Our analysis showed that DnaA boxes cluster around the replication origin (oriC), supporting the titration model for DnaA regulation.
-- **Motif shuffling**: Using shuffled motifs, we compared the distribution of real motifs against randomized controls to statistically validate motif overrepresentation near oriC.
-
-## Table of Contents
-1. [Features](#features)
-2. [Installation](#installation)
-3. [Usage](#usage)
-   - [DnaA Motif Detection](#dnaA-motif-detection)
-   - [Motif Shuffling](#motif-shuffling)
-4. [Contributing](#contributing)
-5. [License](#license)
-6. [Citation](#citation)
-
-## Features
-
-- **Motif detection**: Detect DnaA box motifs in circular genomes, allowing for both forward and reverse complement matching.
-- **Motif shuffling**: Generate shuffled versions of detected motifs for control datasets.
-- **Performance**: Optimized for large bacterial genomes with circular chromosome support.
-- **Statistical validation**: Enable comparison of real motif distributions against shuffled controls.
-
-## Installation
-
-Clone the repository and navigate to the directory:
-
-```bash
-git clone https://github.com/stephkoest/Ecoli_titration.git
-cd Ecoli_titration
 #Ensure you have Python 3 installed. it should need no further packages, as it runs with basic python.
 ```
 
