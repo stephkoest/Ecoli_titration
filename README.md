@@ -43,6 +43,8 @@ Clone the repository and navigate to the directory:
 ```bash
 git clone https://github.com/stephkoest/Ecoli_titration.git
 cd Ecoli_titration
+```
+
 # DnaA Motif Detection and Motif Shuffling
 
 ![License](https://img.shields.io/github/license/stephkoest/Ecoli_titration)
